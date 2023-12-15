@@ -20,6 +20,6 @@
     "release": "npm publish --access public"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^8.52.0"
   }
 }
