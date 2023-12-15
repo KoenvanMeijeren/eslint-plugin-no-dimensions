@@ -24,6 +24,15 @@ In your .eslintrc file, add no-dimensions to your plugins and rules:
 }
 ```
 
+## Release new version
+
+To release a new version, run the following commands:
+
+```bash
+npm login
+npm run release
+```
+
 ## Rules
 
 ### no-dimensions
