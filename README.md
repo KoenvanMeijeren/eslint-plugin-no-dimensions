@@ -1,6 +1,6 @@
 # eslint-plugin-no-dimensions
 
-This is a custom ESLint plugin that contains rules to help enforce best practices in your JavaScript code.
+ESLint plugin to disallow the use of Dimensions.get('window') in react-native.
 
 ## Installation
 
