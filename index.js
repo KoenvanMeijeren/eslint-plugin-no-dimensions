@@ -41,6 +41,23 @@ module.exports = {
                                 message: 'Avoid using Dimensions.get(\'window\'). Use \'useWindowDimensions()\' instead.',
                             });
                         }
+
+                        if (
+                            node.object &&
+                            node.object.name === 'Dimensions' &&
+                            node.property &&
+                            node.property.name === 'get' &&
+                            node.parent &&
+                            node.parent.type === 'CallExpression' &&
+                            node.parent.arguments.length === 1 &&
+                            node.parent.arguments[0].type === 'Literal' &&
+                            node.parent.arguments[0].value === 'window'
+                        ) {
+                            context.report({
+                                node: node,
+                                message: 'Avoid using Dimensions.get(\'window\'). Use \'useWindowDimensions()\' instead.',
+                            });
+                        }
                     },
                 };
             },
