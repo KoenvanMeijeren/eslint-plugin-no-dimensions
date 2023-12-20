@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-no-dimensions",
   "description": "ESLint plugin to disallow the use of Dimensions.get('window') in react-native",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -9,11 +9,11 @@
     "react-native",
     "dimensions"
   ],
-  "author": "Windesheim.AI",
+  "author": "koenvanmeijeren",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Windesheim-AI/eslint-plugin-no-dimensions.git"
+    "url": "git+https://github.com/KoenvanMeijeren/eslint-plugin-no-dimensions.git"
   },
   "main": "index.js",
   "scripts": {
