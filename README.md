@@ -37,7 +37,7 @@ npm run release
 
 ### no-dimensions
 
-This rule checks for usage of Dimensions.get('window') and suggests using useWindowDimensions() instead.
+This rule checks for usage of `Dimensions.get('window')` and suggests using `useWindowDimensions()` instead.
 
 ## License
 
